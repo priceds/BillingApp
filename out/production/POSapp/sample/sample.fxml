@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="292.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="85.0" layoutX="-4.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="298.0" />
+      <Label layoutX="32.0" layoutY="27.0" text="Keddies Kitchen POS" textFill="WHITE">
+         <font>
+            <Font name="Eras Medium ITC" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="93.0" text="Login">
+         <font>
+            <Font name="Eras Medium ITC" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_name" layoutX="52.0" layoutY="192.0" prefHeight="31.0" prefWidth="189.0" promptText="Enter Name" />
+      <TextField fx:id="txt_password" layoutX="51.0" layoutY="264.0" prefHeight="31.0" prefWidth="189.0" promptText="Enter Password" />
+      <Button fx:id="btn_login" layoutX="103.0" layoutY="343.0" mnemonicParsing="false" onAction="#checkLogin" prefHeight="31.0" prefWidth="84.0" text="Login" />
+      <Label fx:id="currentTime" layoutX="61.0" layoutY="128.0">
+         <font>
+            <Font name="Eras Medium ITC" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
